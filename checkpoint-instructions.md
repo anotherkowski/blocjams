@@ -1,5 +1,4 @@
 # Checkpoint Instructions
-
 ## Before (Checkpoint)
 
 git checkout -b checkpoint-23-fe
