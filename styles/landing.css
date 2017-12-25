@@ -1,42 +1,40 @@
-body.landing {
+.landing {
   background-color: rgb(58, 23, 63);
 }
 .hero-content {
-  position           : relative;
-  min-height         : 600px;
-  background-image   : url("../assets/images/bloc_jams_bg.jpg");
-  background-repeat  : no-repeat;
+  position: relative;
+  min-height: 600px;
+  background-image: url('../assets/images/bloc_jams_bg.jpg');
+  background-repeat: no-repeat;
   background-position: center center;
-  background-size    : cover;
+  background-size: cover;
 }
 .hero-content .hero-title {
-  position         : absolute;
-  top              : 40%;
+  position: absolute;
+  top: 40%;
+  width: 100%;
   -webkit-transform: translateY(-50%);
-  -moz-transform   : translateY(-50%);
-  transform        : translateY(-50%);
-  width            : 100%;
-  text-align       : center;
-  font-size        : 4rem;
-  font-weight      : 300;
-  text-transform   : uppercase;
-  letter-spacing   : .5rem;
-  text-shadow      : 1px 1px 0 rgb(58, 23, 63);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgb(58, 23, 63);
+  font-size: 4rem;
+  font-weight: 300;
 }
 .selling-points {
   position: relative;
 }
 .point {
-  position  : relative;
-  padding   : 2rem;
+  position: relative;
+  padding: 2rem;
   text-align: center;
 }
 .point .point-title {
   font-size: 1.25rem;
 }
-.ion-iphone,
-.ion-music-note,
-.ion-radio-waves {
-  color    : rgb(233, 50, 117);
+.ion-iphone, .ion-music-note, .ion-radio-waves {
+  color: rgb(233, 50, 117);
   font-size: 5rem;
 }

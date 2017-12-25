@@ -11,6 +11,7 @@ git checkout -b checkpoint-23-fe
 git add .
 git commit -m "Assignment 23 completed"
 git push origin assignment-23-fe
+git checkout master
 
 ## After (Checkpoint)
 
@@ -20,4 +21,3 @@ git push origin checkpoint-23-fe
 git checkout master
 git merge checkpoint-23-fe
 git push
-git checkout master
